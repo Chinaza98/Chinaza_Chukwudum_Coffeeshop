@@ -1,0 +1,186 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #fff0ed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.header__logo {
+  display: flex;
+  text-decoration: none;
+}
+
+.coffee-logo {
+  width: 2rem;
+}
+
+.header__title {
+  color: #000;
+  text-decoration: none;
+}
+
+.header__nav {
+  padding: 1rem;
+}
+
+.header__item {
+  list-style-type: none;
+}
+
+.header__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20rem;
+}
+
+.logo {
+  width: 2rem;
+}
+
+.header {
+  margin: 0;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #fff0ed;
+}
+
+.hero {
+  background-color: #fff0ed;
+  margin: 0;
+  padding-top: 5rem;
+  display: flex;
+}
+
+.hero__title {
+  font-size: 40px;
+  padding: 0;
+}
+
+.hero-button {
+  background-color: #5bacc3;
+  font-size: medium;
+  padding: 1rem;
+  color: white;
+  margin: 0;
+}
+
+.hero__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+  padding-left: 6rem;
+}
+
+.hero__copy {
+  width: 80%;
+}
+
+.hero__image {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 40%;
+}
+
+.hero__cta {
+  size: large;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.card__container {
+  background: #f7f7f7;
+  width: 100%;
+  padding: 2rem;
+  margin: 3rem;
+}
+
+.card__description {
+  background-color: #fff0ed;
+  height: 11rem;
+  width: 4rem;
+}
+
+.products {
+  display: inline-block;
+  width: 30%;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.product-price {
+  color: #5bacc3;
+}
+
+.products-card {
+  display: inline-block;
+  padding: 4rem;
+  text-align: center;
+  border: solid #fff0ed;
+  border-radius: 20px;
+  box-shadow: #fff0ed;
+  margin-bottom: 3rem;
+}
+
+.products-section {
+  background-color: #f7f7f7;
+  padding: 2rem;
+}
+
+.products-all {
+  margin-top: 2rem;
+}
+
+.discount {
+  background-color: #393939;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.discount-section {
+  background-color: white;
+  margin: 5rem;
+}
+
+.footer {
+  background-color: #fff0ed;
+  padding: 1rem;
+  width: 100%;
+  display: inline-block;
+}
+
+.footer-section {
+  display: inline-block;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}/*# sourceMappingURL=landing.css.map */

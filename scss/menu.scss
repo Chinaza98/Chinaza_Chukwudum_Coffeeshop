@@ -1,0 +1,88 @@
+@use "./partials/global" as *;
+
+.hero {
+  background-image: url("../assets/coffee-circle.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  background-color: #393939;
+  text-align: left;
+  padding: 1rem;
+  margin: 0;
+  color: #ffff;
+  padding: 1rem;
+}
+
+.hero-list {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+}
+
+.hero-title-items {
+  background-color: #393939;
+  text-align: center;
+  color: #ffff;
+}
+
+.hero-item {
+  display: inline-block;
+  padding: 1rem;
+  border-left: solid #5bacc3;
+}
+
+.logo {
+  width: 2rem;
+}
+
+.drink {
+  background-color: #fff0ed;
+  padding: 1rem;
+  text-align: center;
+}
+
+.drink-title {
+  text-align: center;
+}
+
+.drink-title-description {
+  text-align: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.drink-price {
+  color: #5bacc3;
+}
+
+.cold {
+  background-color: #f7f7f7;
+  padding: 1rem;
+  text-align: center;
+}
+
+.cold-title {
+  text-align: center;
+}
+
+.cold-title-description {
+  text-align: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.pastries {
+  background-color: #fff0ed;
+  padding: 1rem;
+  margin-top: 2rem;
+}
